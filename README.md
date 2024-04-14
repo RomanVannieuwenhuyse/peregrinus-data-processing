@@ -10,12 +10,12 @@ Berichten versturen via het iridium sattelietennetwerk is helaas niet gratis en 
 
 ### Benodigde credits
 In de eerste fase (5244180 ms) gaan we elke 10000ms een bericht versturen dat 3 credits gebruikt. Voor de eerste fase hebben we dus 1574 credits nodig. Voor de tweede fase is het minder duidelijk hoeveel berichten we gaan kunnen versturen. Die duurt 1441400ms en we gebruiken elke 10000ms 7 credits, wat zou neerkomen op 1008 credits. Omdat we waarschijnlijk wel niet altijd van de eerste keer erin gaan slagen om het bericht te versturen denk ik dat voor de hele missie 2000 credits een goede schatting is.
----
+
 ## De vlucht
 Nu de credits aangekocht zijn en de line rental actief is, is het tijd voor de lancering. Bidden dat alles goed gaat!
 
 Normaal kunnen we tijdens de vlucht al berichten zien binnnenkomen op de [rockblock website](https://rockblock.rock7.com/), klik hiervoor links op **Messages**.
----
+
 ## Na de vlucht
 ### Rauwe data omzetten in een .csv bestand
 We hebben nu een heleboel berichten ontvangen met voor mensen compleet onleesbare data. Download alle berichten van tijdens de vlucht via de [rockblock website](https://rockblock.rock7.com/), klik links op **Messages**, rechts bovenaan klik je op de blauwe knop **Export** en je kiest voor **CSV**. Nu is het tijd om op [deze](https://github.com/RomanVannieuwenhuyse/peregrinus-data-processing) website de software te downloaden die de data verwerkt. Hoe dit proces exact verloopt hangt af van je besturingssysteem
@@ -30,7 +30,7 @@ We hebben nu een heleboel berichten ontvangen met voor mensen compleet onleesbar
         ```
     5. Nu zouden er in de folder twee nieuwe bestanden moeten verschijnen: *phase_one_data.csv* en *phase_two_data.csv*
 - **Mac of Linux**
-    Download de code, compileer het bestand en volg met dat bestand stappen 2-5 uit het bovenstaande. Let op! het commando dat je zal moeten gebruiken zal er waarschijnlijk eerder als volgt uitzien, maar dit verschilt per besturingssysteem
+    Download de code, compileer het bestand en volg met dat bestand stappen 2-5 uit het bovenstaande. Let op! het commando dat je zal moeten gebruiken zal er waarschijnlijk eerder als volgt uitzien, maar dit verschilt per besturingssysteem.
         ```
         ./cstb messages-1234567890123.csv
         ```
