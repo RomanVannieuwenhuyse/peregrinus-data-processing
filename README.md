@@ -32,14 +32,14 @@ We hebben nu een heleboel berichten ontvangen met voor mensen compleet onleesbar
 - **Mac of Linux**
     Download de code, compileer het bestand en volg met dat bestand stappen 2-5 uit het bovenstaande. Let op! het commando dat je zal moeten gebruiken zal er waarschijnlijk eerder als volgt uitzien, maar dit verschilt per besturingssysteem.
         ```
-        ./cstb messages-1234567890123.csv
+            ./cstb messages-1234567890123.csv
         ```
 
 ### CSV bestand importeren in Google Sheets
 Open een leeg Google spreadsheets. Klik op **Bestand > Importeren > Uploaden** en importeer een voor een de *phase_one_data.csv* en *phase_two_data.csv* bestanden. Ik zou beiden naar een ander blad importeren. Zorg ervoor dat "Tekst naar getallen, datums en formules converten" afgevinkt staat. Doe dan ctrl+f, vervang alle punten door komma's en zet de cellen daarna om naar getallen, door ze te selecteren, en dan op **meer indelingen** te klikken en een indeling te maken met vijf of zes getallen na de komma. Het kan ook visueel handig zijn om conditionele opmaak toe te voegen met volgende regels voor respectievelijk fase één en fase twee.
     ```
-    =LT(REST(RIJ()-2;20);10)
-    =LT(REST(RIJ()-2;46);23)
+        =LT(REST(RIJ()-2;20);10)
+        =LT(REST(RIJ()-2;46);23)
     ```
 Zo wordt de data uit verschillende berichten gemakkelijk onderscheiden
 
