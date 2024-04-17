@@ -76,6 +76,7 @@ Hieronder volgt een stap voor stap uitleg voor het importeren van de data in Goo
     ```
 
 ![Voer een custom opmaakregel in](./Images/CustomOpmaakregel.png)
+
 11. Herhaal stap 1 en 2, maar importeer de data naar een nieuw blad door onder **Locatie importen** nu **Nieuwe bladen importeren** te selecteren.
 12. Herhaal stap 3 en 4 in dit nieuwe blad.
 13. Herhaal stap 5 en 6, maar deze keer enkel voor de timestamp data.
