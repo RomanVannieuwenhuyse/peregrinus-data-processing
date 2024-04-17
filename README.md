@@ -56,7 +56,7 @@ Hieronder volgt een stap voor stap uitleg voor het importeren van de data in Goo
 1. Open een leeg Google spreadsheets. Klik op **Bestand > Importeren > Uploaden** en importeer *phase_one_data.csv*.
 ![Bestand importeren](./Images/Uploaden.png)
 2. Zorg ervoor dat "Tekst naar getallen, datums en formules converten" afgevinkt staat en klik op **gegevens importeren**. 
-![Zorg dat het vinkje afgevinkt is voor je op gegevens importeren klikt](./Images/Import)
+![Zorg dat het vinkje afgevinkt is voor je op gegevens importeren klikt](./Images/Import.png)
 3. Druk op **ctrl+f**, en klik in het vakje dat verschijnt op de drie verticale puntjes.
 ![Klik op de drie puntjes](./Images/DriePuntjes.png)
 4. Voer nu bij het vak **Zoeken** een punt in en bij het vak **Vervangen door** een komma en druk op **Alles vervangen** en daarna op **Klaar**.
@@ -71,9 +71,9 @@ Hieronder volgt een stap voor stap uitleg voor het importeren van de data in Goo
 9. Selecteer in het dropdownmenu onder **Opmaakregels** de onderste optie, **Aangepaste formule is**.
 ![Selecteer de juiste opmaakregel](./Images/OpmaakRegel.png)
 10. Voer in het verschenen invoervak het volgende in en klik op **klaar**.
-```
-=LT(REST(RIJ()-2;20);10)
-```
+    ```
+    =LT(REST(RIJ()-2;20);10)
+    ```
 ![Voer een custom opmaakregel in](./Images/CustomOpmaakregel.png)
 11. Herhaal stap 1 en 2, maar importeer de data naar een nieuw blad door onder **Locatie importen** nu **Nieuwe bladen importeren** te selecteren.
 12. Herhaal stap 3 en 4 in dit nieuwe blad.
